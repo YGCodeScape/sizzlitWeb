@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Pontano+Sans:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+/* ============================================================
+   ROOT TOKENS
+   ============================================================ */
+:root {
+
+  /* ----------------------------------------------------------
+     BRAND COLORS
+     ---------------------------------------------------------- */
+  --color-brand-primary: #FF6D13;   /* main orange */
+  --color-brand-secondary:#FF4804;   /* lighter orange */
+  --color-brand-gradient: linear-gradient(135deg, #FF6D13, #FF4804);
+  --color-brand-gradient-dark: linear-gradient(145deg, #161616 0%, #1a1008 100%);
+  --color-brand-glow: rgba(255, 107, 26, 0.15);
+  --color-brand-tint: #1e1410;
+  --color-white: #EDEDED;
+  --color-tagline: #9A9A9A;
+  --color-placeholder:#555555; 
+  --bg-page: #0a0a0a;
+  --bg-box: #161616;
+  --card-bg: #111111;
+  --card-border:rgba(255, 255, 255, 0.07);
+  --role-bg: #252525;
+  --input-border: rgba(255, 255, 255, 0.07);
+  --focus-border: #FF6A3D;
+
+  /* ----------------------------------------------------------
+     BORDER RADIUS
+     ---------------------------------------------------------- */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;    
+  --radius-xl: 16px;    
+  --radius-2xl: 20px;
+  --radius-3xl: 24px;    
+  --radius-full: 9999px;
+
+  /* ----------------------------------------------------------
+     TYPOGRAPHY — FONT FAMILIES
+     ---------------------------------------------------------- */
+  --font-primary: "Rubik", sans-serif;
+  --font-logo: "Fascinate", system-ui;
+  --font-text: "Pontano Sans", sans-serif;
+  --Landing-font-display: 'Syne', sans-serif;
+
+  /* ----------------------------------------------------------
+     TYPOGRAPHY — FONT SIZES
+     ---------------------------------------------------------- */
+  --text-xs:  8px;
+  --text-sm:  10px;
+  --text-base: 13px;
+  --text-md:  16px;
+  --text-lg:  19px;
+  --text-xl:  22px;
+  --text-2xl: 23px;
+  --text-3xl: 26px;
+  --text-4xl: 29px;
+  --text-5xl: 32px;
+  --text-6xl: 35px;
+
+  /* ----------------------------------------------------------
+     TYPOGRAPHY — FONT WEIGHTS
+     ---------------------------------------------------------- */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* ----------------------------------------------------------
+     SPACING SCALE
+     ---------------------------------------------------------- */
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-32: 32px;
+  --space-36: 36px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+
+  /* ----------------------------------------------------------
+     EFFECTS — TRANSITIONS
+     ---------------------------------------------------------- */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.3s ease;
+
+  /* ----------------------------------------------------------
+     EFFECTS — SHADOWS
+     ---------------------------------------------------------- */
+  --orange-glow:   rgba(255, 92, 44, 0.35);
+  --shadow-card:  0 0 60px rgba(0, 0, 0, 0.6);
+  --shadow-brand: 0 4px 24px rgba(255, 107, 43, 0.3);
+  --shadow-input-focus: 1px 1px 4px 2px rgba(255, 107, 43, 0.15);
+
+    /* ----------------------------------------------------------
+     SEMANTIC COLORS
+     ---------------------------------------------------------- */
+  --color-success: #22c55e;
+  --color-success-bg: rgba(34, 197, 94, 0.1);
+  --str-vstrong:   #2ecc71;
+  --color-error: #ef4444;
+  --color-error-bg:rgba(239, 68, 68, 0.1);
+  --color-warning: #f59e0b;
+  --color-warning-bg: rgba(245, 158, 11, 0.1);
+  --color-info:#3b82f6;
+  --color-info-bg:rgba(59, 130, 246, 0.1);
+}
